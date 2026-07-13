@@ -1,5 +1,5 @@
 context:
-  version: "1.4.2"
+  version: "1.5.0"
 
 recipe:
   name: vouch
@@ -7,7 +7,7 @@ recipe:
 
 source:
   url: https://github.com/mitchellh/vouch/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 94275ada728b19f0b09e40198003aa047f2cdf75c550ce5413ed87a78c810092
+  sha256: a3f13e276ddc7ea55d4113f3dc2d0e8d4712ab7f4d946eefd6848265c7848fb4
 
 build:
   number: 0
